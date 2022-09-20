@@ -12,7 +12,7 @@ Also, printing of blank lines is optimized.
 In order to re-compile the binary (e.g. on a Raspberry Pi), the following libraries must be installed:
 
 ```
-sudo apt-get install libcups2-dev libcupsimage2-dev g++ cups cups-client
+sudo dnf install https://vault.centos.org/centos/8/AppStream/x86_64/os/Packages/cups-devel-2.2.6-40.el8.x86_64.rpm
 ```
 
-After that, `make` and `install` do the right thing.
+After that, `make` and `./install` do the right thing.
