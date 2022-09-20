@@ -1,10 +1,15 @@
-Epson TM-T20II
+Epson TM-T20II for Centos8x86_64
 =====
+
+Requirenments
+=====
+* Samba installed.
+* Cups installed.
+* Cmake dependency installed.
 
 CUPS filter for thermal printer Epson TM-T20II
 
 The linux driver provided on Epson site unfortunately doesn't work.
-It is x86 binary and doesn't work on Raspberry Pi.
 
 Filter is provided as src (you can found a list of packages need to be installed in order to build it in the header of source).
 Also, printing of blank lines is optimized.
